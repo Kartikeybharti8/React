@@ -1,9 +1,13 @@
 import React from 'react'
+import './AddTodo.css'
 
 export const About = () => {
+   const myStyle={
+      minHeight:"66vh",
+   }
   return (
      <>
-     <div>
+     <div class="container" style={myStyle}>
         <h1>
         About Page
         </h1>

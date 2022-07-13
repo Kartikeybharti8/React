@@ -4,8 +4,9 @@ import "./AddTodo.css"
 
 export const Todos = (props) => {
   const myStyle={
-     minHeight:"50vh",
-  }
+    minHeight:"50vh",
+ }
+ 
   return (
 
     <div className='container' style={myStyle}>
